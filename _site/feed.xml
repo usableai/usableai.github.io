@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>AIXLab@Chalmers</title>
+    
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>AIX Lab is here!</title>
+        <description>
+          
+          We are a research group 🧑🏻‍🤝‍🧑🏾 at the Department of Computer Science and Engineering 💻, Chalmers University of Technology, Sweden 🇸🇪. Our primary research interests include neural architecture search, hyperparameter optimization, automated testing, and user experience design. We also work closely with the industry to ensure our research is applicable...
+        </description>
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2023-02-26-aboutus/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-02-26-aboutus/</guid>
+      </item>
+    
+  </channel>
+</rss>
