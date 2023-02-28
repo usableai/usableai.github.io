@@ -22,8 +22,12 @@ author: AIXLab@Chalmers
 navbar-links:
   Our Team: "aboutus"
   Publications: "publications"
-  Resources:
+  Reading group: "reading"
+  # Resources:
     # - NAS: "2023-02-16-nas"
+  Opportunities:
+    - Active: "active"
+    - Archive: "archive"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
 
