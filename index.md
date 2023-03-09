@@ -6,7 +6,7 @@ subtitle: Welcome to the AIX Lab!
 
 ---
 # About us 🧑🏻‍🤝‍🧑🏾
-We are a research group based in Gothenburg, Sweden 🇸🇪. Our main objective is to create **usable** ✨ AI systems that can be effectively utilized across a wide range of **application domains** 🚀 with enhanced **user experience** 🏂.
+We are a research group based in Gothenburg, Sweden 🇸🇪. Our primary goal is to create AI systems that are **usable** ✨ across a variety of industry domains 🚀 with enhanced **user experience** 🏂.
 
 
 ## 👩🏽‍🔬 Research topics
