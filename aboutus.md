@@ -8,7 +8,7 @@ subtitle: Meet our team ❤ (alphabetical order)
 
  <div class="row">
   <div class="column" style="margin-left: 10%; margin-top: 2%">
-      <img height="200px" class="center-block" src="http://www.robertfeldt.net/robert_feldt.jpg">
+      <img height="200px" class="center-block" src="/assets/img/profile-robert.jpg">
   <div>
 <p><a href="http://www.robertfeldt.net/">Robert Feldt</a></p>
   </div>
