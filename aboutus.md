@@ -4,20 +4,20 @@ title: About us
 subtitle: Meet our team ❤ (alphabetical order)
 ---
 
-### Staff
+### Organizers
 
  <div class="row">
   <div class="column" style="margin-left: 10%; margin-top: 2%">
-      <img height="200px" class="center-block" src="/assets/img/profile.jpg">
+      <img height="200px" class="center-block" src="http://www.robertfeldt.net/robert_feldt.jpg">
   <div>
-  <!-- RF <br> -->
+<p><a href="http://www.robertfeldt.net/">Robert Feldt</a></p>
   </div>
 
   </div>
   <div class="column"  style="margin-left: 10%; margin-top: 2%">
-      <img height="200px" class="center-block" src="/assets/img/profile.jpg">
+      <img height="200px" class="center-block" src="/assets/img/profile-yinan.jpg">
   <div>
-  <!-- YY <br> -->
+<p><a href="https://www.chalmers.se/en/persons/yinan/">Yinan Yu</a></p>
   </div>
 
   </div>
