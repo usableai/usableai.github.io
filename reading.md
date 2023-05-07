@@ -1,5 +1,7 @@
 ---
 layout: page
-title: Reading group
+title: Reading Club
 subtitle:
 ---
+
+### Coming soon
