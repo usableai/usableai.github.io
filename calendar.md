@@ -26,8 +26,10 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     background-color: #4CAF50;
     color: white;
     font-size: 1.5em;
