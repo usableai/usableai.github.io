@@ -21,4 +21,14 @@ SUMMARY:Reading Club
 LOCATION:
 DESCRIPTION:Reading Club
 END:VEVENT
+BEGIN:VEVENT
+UID:20230613T140000-masters-thesis-presentation-echocardiogram
+DTSTAMP:20230519T000000Z
+DTSTART:20230613T140000
+DTEND:20230613T150000
+SUMMARY:Master's Thesis Presentation
+LOCATION:EDIT building, Room EA
+DESCRIPTION:Despeckling Echocardiograms Using Generative Adversarial Networks
+URL:https://masterthesis.cms.chalmers.se/content/despeckling-echocardiograms-using-generative-adversarial-networks
+END:VEVENT
 END:VCALENDAR
