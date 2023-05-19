@@ -2,7 +2,7 @@
 layout: resource
 title: Arsham Khoee
 subtitle: PhD student
-permalink: /members
+permalink: /members/arsham
 ---
 
 ### About me

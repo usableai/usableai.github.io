@@ -69,7 +69,7 @@ color: #777;
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Placeholder profile image for Arsham">
 <h3 class="profile-name">Arsham Khoee</h3>
-<p class="profile-description"><a href="/members/arsham.md">PhD student</a></p>
+<p class="profile-description"><a href="/members/arsham">PhD student</a></p>
 </div>
 
 <div class="profile-card">
