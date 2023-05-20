@@ -63,19 +63,19 @@ color: #777;
 <div class="profile-card">
 <img class="profile-image" src="https://via.placeholder.com/150x200" alt="Placeholder profile image for Ann-Sophie">
 <h3 class="profile-name">Ann-Sophie Hilkert</h3>
-<p class="profile-description">PhD student</p>
+<p class="profile-description">PhD Student</p>
 </div>
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Placeholder profile image for Arsham">
 <h3 class="profile-name">Arsham Khoee</h3>
-<p class="profile-description"><a href="/members/arsham">PhD student</a></p>
+<p class="profile-description"><a href="/members/arsham">PhD Student</a></p>
 </div>
 
 <div class="profile-card">
 <img class="profile-image" src="https://via.placeholder.com/150x200" alt="Placeholder profile image for Isabel">
 <h3 class="profile-name">Isabel Ljungberg</h3>
-<p class="profile-description">PhD student</p>
+<p class="profile-description">PhD Student</p>
 </div>
 </div>
 
@@ -89,6 +89,13 @@ color: #777;
 <h3 class="profile-name"> Luis Miguel Arévalo </h3>
 <p class="profile-description">Master's Student</p>
 </div>
+
+<div class="profile-card">
+<img class="profile-image" src="/assets/img/profile-falk.jpg" alt="Profile image for Falk">
+<h3 class="profile-name"> Falk Dippel </h3>
+<p class="profile-description"><a href="/members/falk">Master's Student</a></p>
+</div>
+
 </div>
 
 ### Industrial Collaborators
