@@ -98,6 +98,6 @@ color: #777;
 
 </div>
 
-### Industrial Collaborators
+<!-- ### Industrial Collaborators -->
 
-<p>Coming soon</p>
+<!-- <p>Coming soon</p> -->

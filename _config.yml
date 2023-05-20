@@ -22,7 +22,7 @@ author: AIXLab@Chalmers
 navbar-links:
   Our Team: "aboutus"
   Publications: "publications"
-  Reading club: "reading"
+  # Reading club: "reading"
   Calendar: "calendar"
   # Resources:
     # - NAS: "2023-02-16-nas"
