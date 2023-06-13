@@ -87,7 +87,7 @@ color: #777;
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-luis.png" alt="Profile image for Luis">
 <h3 class="profile-name"> Luis Miguel Arévalo </h3>
-<p class="profile-description">Master's Student</p>
+<p class="profile-description"><a href="/members/luis">Master's Student</a></p>
 </div>
 
 <div class="profile-card">
