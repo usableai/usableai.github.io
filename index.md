@@ -17,4 +17,4 @@ We are a research group based in Gothenburg, Sweden 🇸🇪. Our primary goal i
 
 
 ---
-# What's new? 📰
+# Projects 📰
