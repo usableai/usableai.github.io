@@ -61,7 +61,7 @@ font-size: 16px;
 
 <div class="row">
 <div class="profile-card">
-<img class="profile-image" src="https://via.placeholder.com/150x200" alt="Placeholder profile image for Ann-Sophie">
+<img class="profile-image" src="/assets/img/profile-ann-sophie.jpg" alt="Placeholder profile image for Ann-Sophie">
 <h3 class="profile-name">Ann-Sophie Hilkert</h3>
 <p class="profile-description">PhD Student</p>
 </div>
@@ -73,7 +73,7 @@ font-size: 16px;
 </div>
 
 <div class="profile-card">
-<img class="profile-image" src="https://via.placeholder.com/150x200" alt="Placeholder profile image for Isabel">
+<img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Placeholder profile image for Isabel">
 <h3 class="profile-name">Isabel Ljungberg</h3>
 <p class="profile-description">PhD Student</p>
 </div>
