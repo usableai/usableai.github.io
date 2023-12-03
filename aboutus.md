@@ -6,7 +6,7 @@ subtitle: Meet our team ❤ (alphabetical order)
 
 <style>
 .profile-card {
-background-color: #b2d4b6;
+background-color: #C0DFD3;
 height: 300px;
 max-width: 220px;
 text-align: center;
@@ -30,13 +30,13 @@ object-fit: cover;
 margin-top: 15px;
 font-size: 16px;
 font-weight: bold;
-color: #333;
+/* color: #333; */
 }
 
 .profile-description {
 margin-top: 5px;
 font-size: 16px;
-color: #777;
+/* color: #000000; */
 }
 </style>
 
@@ -50,7 +50,7 @@ color: #777;
 </div>
 
 <div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-yinan.jpg" alt="Profile image for Yinan">
+<img class="profile-image" src="/assets/img/profile-yinan.png" alt="Profile image for Yinan">
 <h3 class="profile-name"><a href="https://www.chalmers.se/en/persons/yinan/">Yinan Yu</a></h3>
 <p class="profile-description">Assistant Professor</p>
 </div>
@@ -68,8 +68,8 @@ color: #777;
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Placeholder profile image for Arsham">
-<h3 class="profile-name">Arsham Khoee</h3>
-<p class="profile-description"><a href="/members/arsham">PhD Student</a></p>
+<h3 class="profile-name"><a href="/members/arsham">Arsham Khoee</a></h3>
+<p class="profile-description">PhD Student</p>
 </div>
 
 <div class="profile-card">
@@ -86,14 +86,14 @@ color: #777;
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-luis.png" alt="Profile image for Luis">
-<h3 class="profile-name"> Luis Miguel Arévalo </h3>
-<p class="profile-description"><a href="/members/luis">Master's Student</a></p>
+<h3 class="profile-name"><a href="/members/luis">Luis Miguel Arévalo</a></h3>
+<p class="profile-description">Master's Student</p>
 </div>
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-falk.jpg" alt="Profile image for Falk">
-<h3 class="profile-name"> Falk Dippel </h3>
-<p class="profile-description"><a href="/members/falk">Master's Student</a></p>
+<h3 class="profile-name"><a href="/members/falk">Falk Dippel</a></h3>
+<p class="profile-description">Master's Student</p>
 </div>
 
 </div>

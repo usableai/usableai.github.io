@@ -16,11 +16,11 @@ body {
 }
 
 a {
-    color: #006600;
+    /* color: #006600; */
 }
 
 .aevent {
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .header {
@@ -30,8 +30,8 @@ a {
     margin: 0 auto;
     align-items: center;
     padding: 0px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #C0DFD3;
+    /* color: white; */
     font-size: 1.5em;
 }
 
@@ -53,18 +53,18 @@ td {
     width: 14.28%;
     height: 100px;
     position: relative;
-    text-color: #4CAF50;
+    /* text-color: #4CAF50; */
     font-size: 0.9em;
 }
 
 td.event {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #C0DFD3;
+    /* color: white; */
 }
 
 .event-container {
     position: absolute;
-    top: 1em; /* Adjust the position below the date */
+    top: 0.5em; /* Adjust the position below the date */
     left: 0;
     right: 0;
     bottom: 0;
@@ -76,16 +76,16 @@ td.event {
 
 
 .btn {
-    background-color: #4CAF50;
+    /* background-color: #C0DFD3; */
     border: none;
-    color: white;
+    /* color: white; */
     padding: 10px 15px;
     font-size: 1.5em;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #2A9D8F;
 }
 
 </style>

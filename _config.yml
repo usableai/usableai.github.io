@@ -20,12 +20,13 @@ author: AIXLab@Chalmers
 ###############################################
 
 navbar-links:
+  Home: "/"
   Our Team: "aboutus"
   Publications: "publications"
   # Reading club: "reading"
   Calendar: "calendar"
   # Resources:
-    # - NAS: "2023-02-16-nas"
+  # - NAS: "2023-02-16-nas"
   Opportunities:
     - Active: "active"
     - Archive: "archive"
@@ -38,7 +39,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: # "/assets/img/avatar-icon.png"
+# avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -46,7 +47,6 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 # title-img: /path/to/image
-
 
 #####################################
 # --- Footer social media links --- #
@@ -94,7 +94,7 @@ rss-description:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
@@ -131,17 +131,18 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#588970" #"#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#C0DFD3"
+navbar-col: "#2A9D8F" #"#EAEAEA"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#35c5b4"
+page-col: "#F5EBE0"
 text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
+link-col: "#30665E"
+hover-col: "#92C6B2"
 footer-col: "#C0DFD3"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -264,16 +265,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: false  # add comments to all blog posts
+      comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
@@ -292,6 +291,5 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
