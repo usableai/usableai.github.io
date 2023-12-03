@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About us
-subtitle: Meet our team ❤ (alphabetical order)
+title: Meet our team ❤
+subtitle: Alphabetical order
 ---
 
 <style>

@@ -21,14 +21,14 @@ author: AIXLab@Chalmers
 
 navbar-links:
   Home: "/"
-  Our Team: "aboutus"
+  Our Team: "team"
   Projects: "projects"
   # Publications: "publications"
   # Reading club: "reading"
   Calendar: "calendar"
   # Resources:
   # - NAS: "2023-02-16-nas"
-  Opportunities: "position"
+  Opportunities: "opportunities"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
 
