@@ -67,18 +67,24 @@ font-size: 16px;
 </div>
 
 <div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-arsham.png" alt="Placeholder profile image for Arsham">
+<img class="profile-image" src="/assets/img/profile-arsham.png" alt="Profile image for Arsham">
 <h3 class="profile-name"><a href="/members/arsham">Arsham Khoee</a></h3>
 <p class="profile-description">PhD Student</p>
 </div>
 
 <div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Placeholder profile image for Isabel">
+<img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Profile image for Isabel">
 <h3 class="profile-name">Isabel Ljungberg</h3>
 <p class="profile-description">PhD Student</p>
 </div>
 </div>
 
+<div class="profile-card">
+<img class="profile-image" src="/assets/img/profile-josie.jpg" alt="Profile image for Josie">
+<h3 class="profile-name"><a href="/members/josie">Josie Harrison</a></h3>
+<p class="profile-description">PhD Student</p>
+</div>
+</div>
 
 ### Master's Students
 
