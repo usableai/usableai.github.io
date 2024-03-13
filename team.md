@@ -80,7 +80,7 @@ font-size: 16px;
 </div>
 
 <div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-josie.jpg" alt="Profile image for Josie">
+<img class="profile-image" src="/assets/img/profile-josie.png" alt="Profile image for Josie">
 <h3 class="profile-name"><a href="/members/josie">Josie Harrison</a></h3>
 <p class="profile-description">PhD Student</p>
 </div>
