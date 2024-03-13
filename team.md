@@ -60,6 +60,7 @@ font-size: 16px;
 ### PhD Students
 
 <div class="row">
+
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-ann-sophie.jpg" alt="Placeholder profile image for Ann-Sophie">
 <h3 class="profile-name">Ann-Sophie Hilkert</h3>
@@ -77,13 +78,13 @@ font-size: 16px;
 <h3 class="profile-name">Isabel Ljungberg</h3>
 <p class="profile-description">PhD Student</p>
 </div>
-</div>
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-josie.png" alt="Profile image for Josie">
 <h3 class="profile-name"><a href="/members/josie">Josie Harrison</a></h3>
 <p class="profile-description">PhD Student</p>
 </div>
+
 </div>
 
 ### Master's Students
