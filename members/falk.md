@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: Falk Dippel
-subtitle: Master's student
+subtitle: Collaborator
 permalink: /members/falk
 ---
 
