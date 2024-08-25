@@ -5,40 +5,52 @@ subtitle: Alphabetical order
 ---
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: left; 
+  gap: 10px; 
+  margin: 0 auto; 
+  max-width: 100%; 
+}
+
 .profile-card {
-background-color: #C0DFD3;
-height: 300px;
-max-width: 220px;
-text-align: center;
-padding: 20px;
-margin-left: 30px;
-margin-top: 30px;
-margin-bottom: 30px;
-border-radius: 10px;
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #C0DFD3;
+  height: auto; 
+  width: 210px; 
+  text-align: center;
+  padding: 20px;
+  margin: 10px; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .profile-image {
-overflow: hidden;
-max-width: 150px;
-height: 200px;
-border-radius: 1%;
-object-fit: cover;
+  width: 150px;
+  height: 200px;
+  border-radius: 1%;
+  object-fit: cover;
+  margin: 0 auto; 
 }
 
 .profile-name {
-margin-top: 15px;
-font-size: 16px;
-font-weight: bold;
-/* color: #333; */
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
 }
 
 .profile-description {
-margin-top: 5px;
-font-size: 16px;
-/* color: #000000; */
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000000;
 }
 </style>
+
 
 ### Organizers
 
@@ -51,60 +63,47 @@ font-size: 16px;
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-yinan.png" alt="Profile image for Yinan">
-<h3 class="profile-name"><a href="https://www.chalmers.se/en/persons/yinan/">Yinan Yu</a></h3>
+<h3 class="profile-name"><a href="/members/yinan">Yinan Yu</a></h3>
 <p class="profile-description">Assistant Professor</p>
 </div>
 </div>
 
 
-### PhD Students
+### PhD Students and Postdocs
 
 <div class="row">
-
-<div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-ann-sophie.jpg" alt="Placeholder profile image for Ann-Sophie">
-<h3 class="profile-name">Ann-Sophie Hilkert</h3>
-<p class="profile-description">PhD Student</p>
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Placeholder profile image for Arsham">
+        <h3 class="profile-name"><a href="/members/arsham">Arsham Khoee</a></h3>
+        <p class="profile-description">PhD Student</p>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Placeholder profile image for Isabel">
+        <h3 class="profile-name">Isabel Ljungberg</h3>
+        <p class="profile-description">PhD Student</p>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-josie.png" alt="Placeholder profile image for Josie">
+        <h3 class="profile-name"><a href="/members/josie">Josie Harrison</a></h3>
+        <p class="profile-description">PhD Student</p>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-shuai.jpg" alt="Profile image for Shuai">
+        <h3 class="profile-name"> Shuai Wang </h3>
+        <p class="profile-description"> <a href="https://research.chalmers.se/en/project/11338">Postdoctoral Researcher </a> </p>
+    </div>
 </div>
 
-<div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-arsham.png" alt="Profile image for Arsham">
-<h3 class="profile-name"><a href="/members/arsham">Arsham Khoee</a></h3>
-<p class="profile-description">PhD Student</p>
-</div>
 
-<div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Profile image for Isabel">
-<h3 class="profile-name">Isabel Ljungberg</h3>
-<p class="profile-description">PhD Student</p>
-</div>
-
-<div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-josie.png" alt="Profile image for Josie">
-<h3 class="profile-name"><a href="/members/josie">Josie Harrison</a></h3>
-<p class="profile-description">PhD Student</p>
-</div>
-
-</div>
-
-### Master's Students
+### Collaborators
 
 <div class="row">
-
-<div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-luis.png" alt="Profile image for Luis">
-<h3 class="profile-name"><a href="/members/luis">Luis Miguel Arévalo</a></h3>
-<p class="profile-description">Master's Student</p>
-</div>
 
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-falk.jpg" alt="Profile image for Falk">
 <h3 class="profile-name"><a href="/members/falk">Falk Dippel</a></h3>
-<p class="profile-description">Master's Student</p>
+<p class="profile-description">Collaborator at <a href="https://www.sahlgrenska.se/en/">Sahlgrenska University Hospital</a> </p>
 </div>
 
 </div>
 
-<!-- ### Industrial Collaborators -->
-
-<!-- <p>Coming soon</p> -->

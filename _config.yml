@@ -23,11 +23,9 @@ navbar-links:
   Home: "/"
   Team: "team"
   Projects: "projects"
-  # Publications: "publications"
+  Publications: "publications"
   # Reading club: "reading"
-  Calendar: "calendar"
-  # Resources:
-  # - NAS: "2023-02-16-nas"
+  # Calendar: "calendar"
   Opportunities: "opportunities"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
