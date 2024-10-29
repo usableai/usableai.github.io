@@ -7,7 +7,7 @@ subtitle:
 ### Open positions
 + [Master's Thesis: Deep Learning for Circular Construction, Dec 2024](https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/2830)
 + [Master's Thesis: Adaptive and Generalizable Vision-Language Models, Dec 2024](https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/2855)
-
++ [Master's Thesis: Reasoning on Knowledge Bases Using Large Language Models for Question Answering, Dec 2024](https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/3218)
 
 
 ---
