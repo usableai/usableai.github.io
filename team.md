@@ -73,24 +73,29 @@ subtitle: Alphabetical order
 
 <div class="row">
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Placeholder profile image for Arsham">
+        <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Profile image for Arsham">
         <h3 class="profile-name"><a href="/members/arsham">Arsham Khoee</a></h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Placeholder profile image for Isabel">
+        <img class="profile-image" src="/assets/img/profile-erik.png" alt="Profile image for Erik">
+        <h3 class="profile-name"><a href="/members/erik">Erik Aerts</a></h3>
+        <p class="profile-description">PhD Student</p>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Profile image for Isabel">
         <h3 class="profile-name">Isabel Ljungberg</h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-josie.png" alt="Placeholder profile image for Josie">
+        <img class="profile-image" src="/assets/img/profile-josie.png" alt="Profile image for Josie">
         <h3 class="profile-name"><a href="/members/josie">Josie Harrison</a></h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
         <img class="profile-image" src="/assets/img/profile-shuai.jpg" alt="Profile image for Shuai">
-        <h3 class="profile-name"> Shuai Wang </h3>
-        <p class="profile-description"> <a href="https://research.chalmers.se/en/project/11338">Postdoctoral Researcher </a> </p>
+        <h3 class="profile-name">Shuai Wang</h3>
+        <p class="profile-description"><a href="https://research.chalmers.se/en/project/11338">Postdoctoral Researcher</a></p>
     </div>
 </div>
 
@@ -98,11 +103,10 @@ subtitle: Alphabetical order
 ### Collaborators
 
 <div class="row">
-
 <div class="profile-card">
 <img class="profile-image" src="/assets/img/profile-falk.jpg" alt="Profile image for Falk">
 <h3 class="profile-name"><a href="/members/falk">Falk Dippel</a></h3>
-<p class="profile-description">Collaborator at <a href="https://www.sahlgrenska.se/en/">Sahlgrenska University Hospital</a> </p>
+<p class="profile-description">Collaborator at <a href="https://www.sahlgrenska.se/en/">Sahlgrenska University Hospital</a></p>
 </div>
 
 </div>
