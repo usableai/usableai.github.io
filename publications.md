@@ -3,7 +3,9 @@ layout: page
 title: Publications
 subtitle: Our research
 ---
+## 2025
 
+- **Wang, Shuai**, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "Automating a Complete Software Test Process Using LLMs: An Automotive Case Study." Accepted to International Conference on Software Engineering (ICSE). [arXiv:2502.04008](https://arxiv.org/abs/2502.04008) (2025).
 
 ## 2024
 
