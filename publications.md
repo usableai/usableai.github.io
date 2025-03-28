@@ -5,6 +5,7 @@ subtitle: Our research
 ---
 ## 2025
 
+- **Khoee, Arsham Gholamzadeh**, Yinan Yu, and Robert Feldt. "Domain-Invariant Prompt Learning for Vision-Language Models." In First ICLR Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (2025). [https://openreview.net/pdf?id=SODTFGcNfp](https://openreview.net/pdf?id=SODTFGcNfp)_
 - **Wang, Shuai**, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "Automating a Complete Software Test Process Using LLMs: An Automotive Case Study." *Accepted to International Conference on Software Engineering (ICSE)*, Ottaw, Canada, April 27-May 3 (2025). [arXiv:2502.04008](https://arxiv.org/abs/2502.04008)
 
 ## 2024
