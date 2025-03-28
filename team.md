@@ -83,8 +83,8 @@ subtitle: Alphabetical order
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-isabel.jpg" alt="Profile image for Isabel">
-        <h3 class="profile-name">Isabel Ljungberg</h3>
+        <img class="profile-image" src="/assets/img/profile-placeholder1.jpg" alt="Placeholder profile image for Ali">
+        <h3 class="profile-name">Ali Rahimi</h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
@@ -96,6 +96,11 @@ subtitle: Alphabetical order
         <img class="profile-image" src="/assets/img/profile-shuai.jpg" alt="Profile image for Shuai">
         <h3 class="profile-name">Shuai Wang</h3>
         <p class="profile-description"><a href="https://research.chalmers.se/en/project/11338">Postdoctoral Researcher</a></p>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-placeholder1.jpg" alt="Placeholder profile image for Xixi">
+        <h3 class="profile-name">Xixi Liu</h3>
+        <p class="profile-description">Postdoctoral Researcher</p>
     </div>
 </div>
 
