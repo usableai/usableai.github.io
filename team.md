@@ -97,11 +97,6 @@ subtitle: Alphabetical order
         <h3 class="profile-name">Shuai Wang</h3>
         <p class="profile-description"><a href="https://scholar.google.com/citations?user=w-ecPmgAAAAJ&hl=en">Postdoctoral Researcher</a></p>
     </div>
-    <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-xixi.jpeg" alt="Placeholder profile image for Xixi">
-        <h3 class="profile-name">Xixi Liu</h3>
-        <p class="profile-description"> <a href="https://scholar.google.com/citations?user=Dbt_Nl0AAAAJ&hl=en">Postdoctoral Researcher </a></p>
-    </div>
 </div>
 
 
