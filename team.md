@@ -62,7 +62,7 @@ subtitle: Alphabetical order
 </div>
 
 <div class="profile-card">
-<img class="profile-image" src="/assets/img/profile-yinan.png" alt="Profile image for Yinan">
+<img class="profile-image" src="/assets/img/profile-yinan.jpg" alt="Profile image for Yinan">
 <h3 class="profile-name"><a href="/members/yinan">Yinan Yu</a></h3>
 <p class="profile-description">Assistant Professor</p>
 </div>
