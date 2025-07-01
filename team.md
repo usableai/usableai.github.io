@@ -97,14 +97,11 @@ subtitle: Alphabetical order
         <h3 class="profile-name">Shuai Wang</h3>
         <p class="profile-description"><a href="https://scholar.google.com/citations?user=w-ecPmgAAAAJ&hl=en">Postdoctoral Researcher</a></p>
     </div>
-<<<<<<< HEAD
-=======
     <div class="profile-card">
         <img class="profile-image" src="/assets/img/profile-zhixing.jpg" alt="">
         <h3 class="profile-name">Zhixing Li</h3>
         <p class="profile-description">PhD Student</p>
     </div>
->>>>>>> 40774bc (Update profile photos)
 </div>
 
 
