@@ -5,10 +5,10 @@ subtitle: Our research
 ---
 ## 2025
 
-- **Shuai Wang**, Yinan Yu. "iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering." The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), Vienna, Austria (2025). [arXiv:2506.01784](https://arxiv.org/abs/2506.01784)
+- **Shuai Wang**, Yinan Yu. "iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering." *The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)*, Vienna, Austria (2025). [arXiv:2506.01784](https://arxiv.org/abs/2506.01784)
 - **Khoee, Arsham Gholamzadeh**, Shuai Wang, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics." [arXiv:2503.21735](https://arxiv.org/abs/2503.21735) (2025).
-- **Khoee, Arsham Gholamzadeh**, Yinan Yu, and Robert Feldt. "Domain-Invariant Prompt Learning for Vision-Language Models." In First ICLR Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (2025). [https://openreview.net/pdf?id=SODTFGcNfp](https://openreview.net/pdf?id=SODTFGcNfp)_
-- **Wang, Shuai**, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "Automating a Complete Software Test Process Using LLMs: An Automotive Case Study." *Accepted to International Conference on Software Engineering (ICSE)*, Ottaw, Canada, April 27-May 3 (2025). [arXiv:2502.04008](https://arxiv.org/abs/2502.04008)
+- **Khoee, Arsham Gholamzadeh**, Yinan Yu, and Robert Feldt. "Domain-Invariant Prompt Learning for Vision-Language Models." *1st ICLR Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models* (2025). [https://openreview.net/pdf?id=SODTFGcNfp](https://openreview.net/pdf?id=SODTFGcNfp)_
+- **Wang, Shuai**, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "Automating a Complete Software Test Process Using LLMs: An Automotive Case Study." *IEEE/ACM 47th International Conference on Software Engineering (ICSE)*, Ottaw, Canada, April 27-May 3 (2025). [arXiv:2502.04008](https://arxiv.org/abs/2502.04008)
 
 ## 2024
 
