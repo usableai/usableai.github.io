@@ -73,18 +73,18 @@ subtitle: Alphabetical order
 
 <div class="row">
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-arsham.png" alt="Profile image for Arsham">
+        <img class="profile-image" src="/assets/img/profile-arsham.jpg" alt="Profile image for Arsham">
         <h3 class="profile-name"><a href="/members/arsham">Arsham Khoee</a></h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-erik.png" alt="Profile image for Erik">
-        <h3 class="profile-name"><a href="/members/erik">Erik Aerts</a></h3>
+        <img class="profile-image" src="/assets/img/profile-ali.jpg" alt="Profile image for Ali">
+        <h3 class="profile-name">Ali Rahimi</h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
-        <img class="profile-image" src="/assets/img/profile-placeholder1.jpg" alt="Placeholder profile image for Ali">
-        <h3 class="profile-name">Ali Rahimi</h3>
+        <img class="profile-image" src="/assets/img/profile-erik.jpg" alt="Profile image for Erik">
+        <h3 class="profile-name"><a href="/members/erik">Erik Aerts</a></h3>
         <p class="profile-description">PhD Student</p>
     </div>
     <div class="profile-card">
@@ -97,6 +97,14 @@ subtitle: Alphabetical order
         <h3 class="profile-name">Shuai Wang</h3>
         <p class="profile-description"><a href="https://scholar.google.com/citations?user=w-ecPmgAAAAJ&hl=en">Postdoctoral Researcher</a></p>
     </div>
+<<<<<<< HEAD
+=======
+    <div class="profile-card">
+        <img class="profile-image" src="/assets/img/profile-zhixing.jpg" alt="">
+        <h3 class="profile-name">Zhixing Li</h3>
+        <p class="profile-description">PhD Student</p>
+    </div>
+>>>>>>> 40774bc (Update profile photos)
 </div>
 
 
