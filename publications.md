@@ -5,6 +5,8 @@ subtitle: Our research
 ---
 ## 2025
 
+- **Yu, Yinan**, Alex Gonzalez-Caceres, Samuel Scheidegger, Sanjay Somanath, and Alexander Hollberg. "Deep Learning-based Scalable Image-to-3D Facade Parser for Generating Thermal 3D Building Models." *Automation in Construction* (2025). [DOI](https://doi.org/10.1016/j.autcon.2025.106449)
+
 - **Shuai Wang**, Yinan Yu. "iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering." *The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)*, Vienna, Austria (2025). [arXiv:2506.01784](https://arxiv.org/abs/2506.01784)
 
 - **Khoee, Arsham Gholamzadeh**, Shuai Wang, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics."  (2025). [arXiv:2503.21735](https://arxiv.org/abs/2503.21735)
