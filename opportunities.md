@@ -6,7 +6,7 @@ subtitle:
 
 ### Open positions
 + PhD student position in physics-guided time series modeling, Sep 2025; for more information, please email `yinan@chalmers.se`
-+ + [Master's Thesis with AstraZeneca: Agentic Conversion of Review Pipeline, Dec 2025](https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/3703)
++ [Master's Thesis with AstraZeneca: Agentic Conversion of Review Pipeline, Dec 2025](https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/3703)
 
 ---
 ### Previous positions
