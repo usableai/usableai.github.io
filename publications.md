@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-subtitle: Research papers co-authored by AIXLab members
+subtitle: Our latest research
 ---
 
 <div data-aix-filters="publications">
@@ -76,7 +76,7 @@ subtitle: Research papers co-authored by AIXLab members
           {% case pub.type %}
             {% when "journal" %}<span class="aix-pill aix-pill--brand">Journal</span>
             {% when "conference" %}<span class="aix-pill">Conference</span>
-            {% when "preprint" %}<span class="aix-pill aix-pill--muted">Preprint</span>
+            {% when "preprint" %}<span class="aix-pill aix-pill--warn">Preprint</span>
             {% when "book-chapter" %}<span class="aix-pill aix-pill--muted">Book chapter</span>
           {% endcase %}
           {% for tag in pub.tags %}<span class="aix-pill aix-pill--muted">{{ tag }}</span>{% endfor %}
@@ -84,7 +84,7 @@ subtitle: Research papers co-authored by AIXLab members
         {% if pub.doi or pub.url %}
           <div class="aix-pub__links">
             {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
-            {% if pub.url %}<a href="{{ pub.url }}">Read →</a>{% endif %}
+            {% if pub.url %}<a href="{{ pub.url }}">{{ pub.url }}</a>{% endif %}
           </div>
         {% endif %}
       </article>
