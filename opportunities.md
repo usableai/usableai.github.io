@@ -1,20 +1,51 @@
 ---
 layout: page
 title: Opportunities
-subtitle:
+subtitle: Join AIXLab
 ---
 
-### Open positions
-+ PhD student position in physics-guided time series modeling, Sep 2025; for more information, please email `yinan@chalmers.se`
-+ [Master's Thesis with AstraZeneca: Agentic Conversion of Review Pipeline, Dec 2025](https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/3703)
+{% assign open_opps = site.data.opportunities | where: "status", "open" %}
+{% assign past_opps = site.data.opportunities | where: "status", "past" %}
 
----
-### Previous positions
-+ Postdoc position in AI for medicine, April 2025
-+ [PhD student position in AI and LLM for Automated Design and Validation of Automotive Software Systems, Jan 2025](https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p13442)
-+ [Master's Thesis: Deep Learning for Circular Construction, Dec 2024](https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/2830)
-+ [Master's Thesis: Adaptive and Generalizable Vision-Language Models, Dec 2024](https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/2855)
-+ [Master's Thesis: Reasoning on Knowledge Bases Using Large Language Models for Question Answering, Dec 2024](https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/3218)
-+ [PhD student position in AI for medicine, Sep 2024](/opportunities/2024-08-chalmers)
-+ [Interns at Volvo AB, Jan 2024](/opportunities/2023-10-volvo)
-+ [Interns at Volvo AB, June-Aug 2023](/opportunities/2023-02-volvo)
+<h2 class="aix-section-title" style="margin-top:1rem">Open positions</h2>
+
+{% if open_opps.size > 0 %}
+{% for opp in open_opps %}
+<div class="aix-opportunity aix-opportunity--split">
+<div class="aix-opportunity__col">
+<p class="aix-opportunity__title">{{ opp.title }}</p>
+{% if opp.subtitle %}<p class="aix-opportunity__subtitle">{{ opp.subtitle }}</p>{% endif %}
+<p class="aix-opportunity__meta">
+{% if opp.date %}{{ opp.date }}{% endif %}
+{% if opp.date and opp.tags %} | {% endif %}
+{% if opp.tags %}{{ opp.tags | join: ", " }}{% endif %}
+</p>
+{% if opp.contact %}<p class="aix-opportunity__contact">Contact: <a href="mailto:{{ opp.contact }}">{{ opp.contact }}</a></p>{% endif %}
+</div>
+<div class="aix-opportunity__col aix-opportunity__col--action">
+{% if opp.url %}<a href="{{ opp.url }}">Link →</a>{% endif %}
+</div>
+</div>
+{% endfor %}
+{% else %}
+<p>No open positions right now. Email <a href="mailto:yinan@chalmers.se">yinan@chalmers.se</a> if you're interested in joining.</p>
+{% endif %}
+
+<h2 class="aix-section-title" style="margin-top:3rem">Previous positions</h2>
+
+{% for opp in past_opps %}
+<div class="aix-opportunity aix-opportunity--past aix-opportunity--split">
+<div class="aix-opportunity__col">
+<p class="aix-opportunity__title">{{ opp.title }}</p>
+{% if opp.subtitle %}<p class="aix-opportunity__subtitle">{{ opp.subtitle }}</p>{% endif %}
+<p class="aix-opportunity__meta">
+{% if opp.date %}{{ opp.date }}{% endif %}
+{% if opp.date and opp.tags %} | {% endif %}
+{% if opp.tags %}{{ opp.tags | join: ", " }}{% endif %}
+</p>
+</div>
+<div class="aix-opportunity__col aix-opportunity__col--action">
+{% if opp.url %}<a href="{{ opp.url }}">Archived listing →</a>{% endif %}
+</div>
+</div>
+{% endfor %}

@@ -1,0 +1,80 @@
+# Open and past opportunities at AIXLab@Chalmers.
+# Fields:
+#   title:      position title
+#   date:       time frame or advertised month (shown inline with the role tag)
+#   subtitle:   optional descriptive context (project, skills)
+#   status:     open | past
+#   url:        link to application page OR internal /opportunities/<slug>
+#   contact:    optional email to contact
+#   tags:       role tag (e.g. ["PhD", "Master's thesis", "Postdoc", "Internship"])
+
+- title: "Postdoc position on NaviGateAI"
+  date: "2026–2028"
+  subtitle: "Digital twin decision support for emergency response"
+  status: open
+  contact: "yinan@chalmers.se"
+  tags: ["Postdoc"]
+
+- title: "Internship at Volvo: Neural Compression for Automotive Data"
+  date: "2026"
+  subtitle: "Strong Python required; PyTorch and deep learning experience preferred"
+  status: open
+  url: /opportunities/volvo-neural-compression
+  contact: "dhasarathy.parthasarathy@volvo.com"
+  tags: ["Internship"]
+
+- title: "Master's Thesis with AstraZeneca: Agentic Conversion of Review Pipeline"
+  date: "Dec 2025"
+  status: past
+  url: "https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/3703"
+  tags: ["Master's thesis"]
+
+- title: "PhD student position in physics-guided time series modeling"
+  date: "Sep 2025"
+  status: past
+  contact: "yinan@chalmers.se"
+  tags: ["PhD"]
+
+- title: "Postdoc position in AI for medicine"
+  date: "April 2025"
+  status: past
+  tags: ["Postdoc"]
+
+- title: "PhD student position in AI and LLM for Automated Design and Validation of Automotive Software Systems"
+  date: "Jan 2025"
+  status: past
+  url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p13442"
+  tags: ["PhD"]
+
+- title: "Master's Thesis: Deep Learning for Circular Construction"
+  date: "Dec 2024"
+  status: past
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/2830"
+  tags: ["Master's thesis"]
+
+- title: "Master's Thesis: Adaptive and Generalizable Vision-Language Models"
+  date: "Dec 2024"
+  status: past
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/2855"
+  tags: ["Master's thesis"]
+
+- title: "Master's Thesis: Reasoning on Knowledge Bases Using Large Language Models for Question Answering"
+  date: "Dec 2024"
+  status: past
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/3218"
+  tags: ["Master's thesis"]
+
+- title: "PhD student position in AI for medicine"
+  date: "Sep 2024"
+  status: past
+  tags: ["PhD"]
+
+- title: "Interns at Volvo AB"
+  date: "Jan 2024"
+  status: past
+  tags: ["Internship"]
+
+- title: "Interns at Volvo AB"
+  date: "June–Aug 2023"
+  status: past
+  tags: ["Internship"]

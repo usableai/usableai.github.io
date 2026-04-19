@@ -1,0 +1,75 @@
+# AIXLab@Chalmers roster.
+# Fields:
+#   slug:          identifier used for the /members/<slug> URL (if bio_link set)
+#   name:          display name
+#   role:          short role string shown on the card
+#   group:         organizer | phd | postdoc | collaborator | alumni
+#   tags:          optional list of small badges (e.g. ["Lab Lead"])
+#   image:         relative path under /assets/img/
+#   bio_link:      internal link to full member page (optional)
+#   external_link: external homepage / Google Scholar (optional)
+#   affiliation:   shown under role for collaborators (optional)
+
+- slug: robert
+  name: "Robert Feldt"
+  role: "Professor"
+  group: organizer
+  image: /assets/img/profile-robert.jpg
+  external_link: "http://www.robertfeldt.net/"
+
+- slug: yinan
+  name: "Yinan Yu"
+  role: "Assistant Professor"
+  group: organizer
+  tags: ["Lab Lead"]
+  image: /assets/img/profile-yinan.jpg
+  bio_link: /members/yinan
+
+- slug: ali
+  name: "Ali Rahimi"
+  role: "PhD Student"
+  group: phd
+  image: /assets/img/profile-ali.jpg
+
+- slug: arsham
+  name: "Arsham Khoee"
+  role: "PhD Student"
+  group: phd
+  image: /assets/img/profile-arsham.jpg
+  bio_link: /members/arsham
+
+- slug: erik
+  name: "Erik Aerts"
+  role: "PhD Student"
+  group: phd
+  image: /assets/img/profile-erik.jpg
+  bio_link: /members/erik
+
+- slug: josie
+  name: "Josie Harrison"
+  role: "PhD Student"
+  group: phd
+  image: /assets/img/profile-josie.png
+  bio_link: /members/josie
+
+- slug: zhixing
+  name: "Zhixing Li"
+  role: "PhD Student"
+  group: phd
+  image: /assets/img/profile-zhixing.jpg
+
+- slug: falk
+  name: "Falk Dippel"
+  role: "Collaborator"
+  group: collaborator
+  image: /assets/img/profile-falk.jpg
+  bio_link: /members/falk
+  affiliation: "Sahlgrenska University Hospital"
+  affiliation_link: "https://www.sahlgrenska.se/en/"
+
+- slug: shuai
+  name: "Shuai Wang"
+  role: "Postdoctoral Researcher"
+  group: alumni
+  image: /assets/img/profile-shuai.jpg
+  external_link: "https://scholar.google.com/citations?user=w-ecPmgAAAAJ&hl=en"

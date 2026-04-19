@@ -1,13 +1,13 @@
 ---
 layout: resource
 title: Yinan Yu
-subtitle: Organizer of the AIXLab@Chalmers 
+subtitle: Lab Lead · AIXLab@Chalmers
 permalink: /members/yinan
 ---
 
 ### About me
 
-I am an Assistant Professor in the Department of Computer Science and Engineering at Chalmers University of Technology, Sweden. My research focuses on developing technical solutions to make AI more *usable* and help create a more accessible and sustainable world. 🌍✨
+I am an Assistant Professor in the Department of Computer Science and Engineering at Chalmers University of Technology, Sweden, and a Technical Fellow (Research Leader) at the Center for Digital Health (CDH), Sahlgrenska University Hospital. My research focuses on developing technical solutions to make AI more *usable* and help create a more accessible and sustainable world. 🌍✨
 
 I work extensively with diverse data modalities, including texts, images, and time series. I enjoy organizing and managing data lakes to make data more accessible and searchable for their end-users. I love designing and implementing deep learning techniques for multimodal learning to unlock the full potential of data! 📊🤩
  
@@ -19,6 +19,7 @@ Additionally, I co-founded the startups <a href="https://asymptotic.ai/"> <img s
 
 ### Links
 
++ [Personal webpage](https://yinan16.github.io/)
 + [Google Scholar](https://scholar.google.com/citations?user=z3p7ALcAAAAJ&hl=en)
 + [LinkedIn](https://www.linkedin.com/in/yinanyu/)
 + [Homepage at Chalmers](https://www.chalmers.se/en/persons/yinan/)

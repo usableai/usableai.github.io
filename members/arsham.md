@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: Arsham Khoee
-subtitle: PhD student
+subtitle: PhD Student
 permalink: /members/arsham
 ---
 

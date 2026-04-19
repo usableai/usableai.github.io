@@ -1,0 +1,232 @@
+# AIXLab@Chalmers publications.
+#
+# Filtering rule: this list contains only publications where at least one current
+# or alumni AIXLab member besides Yinan Yu is a co-author. Members matched:
+#   Robert Feldt, Arsham (Gholamzadeh) Khoee, Ali Rahimi, Erik Aerts,
+#   Josie Harrison, Shuai Wang (alumna), Zhixing Li, Falk Dippel.
+#
+# 38 entries authored solely by Yinan (together with external collaborators)
+# were excluded by this rule. They remain on Yinan's personal page:
+#   https://yinanyu.github.io/
+#
+# Fields: year, title, authors, venue, volume, pages, doi, url (optional),
+#         type (journal|conference|preprint|book-chapter),
+#         tags[], domain[], group_authors[] (AIXLab members among authors).
+
+# === 2026 ===
+# --- Journals ---
+- year: 2026
+  title: "Recognizing as-built building materials: a systematic mapping study"
+  authors: "Josie Harrison, Yinan Yu, Alexander Hollberg"
+  venue: "Expert Systems with Applications"
+  pages: "132376"
+  type: "journal"
+  tags: ["Computer Vision", "ML/DL"]
+  domain: ["Building", "Sustainability"]
+  group_authors: ["Josie Harrison", "Yinan Yu"]
+
+# --- Conferences ---
+- year: 2026
+  title: "Latent Domain Prompt Learning for Vision-Language Models"
+  authors: "Zhixing Li, Arsham Gholamzadeh Khoee, Yinan Yu"
+  venue: "The 51st IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026)"
+  url: "https://arxiv.org/abs/2511.00067"
+  type: "conference"
+  tags: ["Multimodal Learning", "Computer Vision"]
+  domain: ["Situation Awareness"]
+  group_authors: ["Zhixing Li", "Arsham Gholamzadeh Khoee", "Yinan Yu"]
+
+- year: 2026
+  title: "KG-Hopper: Empowering Compact Open LLMs with Knowledge Graph Reasoning via Reinforcement Learning"
+  authors: "Shuai Wang, Yinan Yu"
+  venue: "International Joint Conference on Neural Networks (IJCNN 2026)"
+  url: "https://arxiv.org/abs/2603.21440"
+  type: "conference"
+  tags: ["LLMs", "NLP", "Knowledge Graphs"]
+  domain: []
+  group_authors: ["Shuai Wang", "Yinan Yu"]
+
+- year: 2026
+  title: "DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation"
+  authors: "Shuai Wang, Dhasarathy Parthasarathy, Robert Feldt, Yinan Yu"
+  venue: "The 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)"
+  url: "https://arxiv.org/abs/2603.21430"
+  type: "conference"
+  tags: ["LLMs", "Software Engineering", "Knowledge Graphs"]
+  domain: []
+  group_authors: ["Shuai Wang", "Robert Feldt", "Yinan Yu"]
+
+- year: 2026
+  title: "LLM-Powered Workflow Optimization for Multidisciplinary Software Development: An Automotive Industry Case Study"
+  authors: "Shuai Wang, Yinan Yu, Earl T. Barr, Dhasarathy Parthasarathy"
+  venue: "The 34th ACM International Conference on the Foundations of Software Engineering (FSE 2026)"
+  url: "https://arxiv.org/abs/2603.21439"
+  type: "conference"
+  tags: ["LLMs", "Software Engineering"]
+  domain: ["Automotive"]
+  group_authors: ["Shuai Wang", "Yinan Yu"]
+
+# --- Preprints ---
+- year: 2026
+  title: "Topology-Aware Reasoning over Incomplete Knowledge Graph with Graph-Based Soft Prompting"
+  authors: "Shuai Wang, Xixi Wang, Yinan Yu"
+  venue: "arXiv preprint"
+  volume: "abs/2604.12503"
+  doi: "10.48550/arXiv.2604.12503"
+  type: "preprint"
+  tags: ["NLP", "LLMs", "Knowledge Graphs"]
+  domain: []
+  group_authors: ["Shuai Wang", "Yinan Yu"]
+
+- year: 2026
+  title: "KG-Reasoner: A Reinforced Model for End-to-End Multi-Hop Knowledge Graph Reasoning"
+  authors: "Shuai Wang, Yinan Yu"
+  venue: "arXiv preprint"
+  volume: "abs/2604.12487"
+  doi: "10.48550/arXiv.2604.12487"
+  type: "preprint"
+  tags: ["NLP", "LLMs", "Knowledge Graphs"]
+  domain: []
+  group_authors: ["Shuai Wang", "Yinan Yu"]
+
+# === 2025 ===
+# --- Journals ---
+# --- Conferences ---
+- year: 2025
+  title: "AI-based hospitalisation detection in telemonitoring data from heart failure patients"
+  authors: "Erik Aerts, Yinan Yu, Annika Rosengren, Mengxi Fu, Martin Lindgren, Martin Adiels, Helen Sjöland"
+  venue: "European Heart Journal"
+  volume: "46"
+  doi: "10.1093/eurheartj/ehaf784.4400"
+  type: "conference"
+  tags: ["ML/DL"]
+  domain: ["Healthcare & Medicine"]
+  group_authors: ["Erik Aerts", "Yinan Yu"]
+
+- year: 2025
+  title: "Automating a Complete Software Test Process Using LLMs: An Automotive Case Study"
+  authors: "Shuai Wang, Yinan Yu, Robert Feldt, Dhasarathy Parthasarathy"
+  venue: "IEEE/ACM 47th International Conference on Software Engineering (ICSE 2025)"
+  pages: "373-384"
+  doi: "10.1109/ICSE55347.2025.00211"
+  type: "conference"
+  tags: ["LLMs", "Software Engineering"]
+  domain: ["Automotive"]
+  group_authors: ["Shuai Wang", "Yinan Yu", "Robert Feldt"]
+
+- year: 2025
+  title: "iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering"
+  authors: "Shuai Wang, Yinan Yu"
+  venue: "63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)"
+  volume: "1"
+  pages: "15616-15628"
+  doi: "10.18653/v1/2025.acl-long.760"
+  url: "https://aclanthology.org/2025.acl-long.760/"
+  type: "conference"
+  tags: ["NLP", "LLMs", "Knowledge Graphs"]
+  domain: []
+  group_authors: ["Shuai Wang", "Yinan Yu"]
+
+- year: 2025
+  title: "Domain-Invariant Prompt Learning for Vision-Language Models"
+  authors: "Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt"
+  venue: "1st SCOPE Workshop at the 13th International Conference on Learning Representations (ICLR 2025)"
+  url: "https://openreview.net/forum?id=SODTFGcNfp"
+  doi: "10.48550/arXiv.2603.28555"
+  type: "conference"
+  tags: ["Multimodal Learning", "Computer Vision"]
+  domain: []
+  group_authors: ["Arsham Gholamzadeh Khoee", "Yinan Yu", "Robert Feldt"]
+
+# --- Preprints ---
+- year: 2025
+  title: "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics"
+  authors: "Arsham Gholamzadeh Khoee, Shuai Wang, Robert Feldt, Dhasarathy Parthasarathy, Yinan Yu"
+  venue: "arXiv preprint"
+  volume: "abs/2503.21735"
+  doi: "10.48550/arXiv.2503.21735"
+  type: "preprint"
+  tags: ["LLMs", "Software Engineering"]
+  domain: ["Automotive"]
+  group_authors: ["Arsham Gholamzadeh Khoee", "Shuai Wang", "Robert Feldt", "Yinan Yu"]
+
+- year: 2025
+  title: "Cost-Aware Prediction (CAP): An LLM-Enhanced Machine Learning Pipeline and Decision Support System for Heart Failure Mortality Prediction"
+  authors: "Yinan Yu, Falk Dippel, Christina E. Lundberg, Martin Lindgren, Annika Rosengren, Martin Adiels, Helen Sjöland"
+  venue: "arXiv preprint"
+  volume: "abs/2511.15357"
+  doi: "10.48550/arXiv.2511.15357"
+  type: "preprint"
+  tags: ["ML/DL", "LLMs"]
+  domain: ["Healthcare & Medicine"]
+  group_authors: ["Yinan Yu", "Falk Dippel"]
+
+- year: 2025
+  title: "Analysis of heart failure patient trajectories using sequence modeling"
+  authors: "Falk Dippel, Yinan Yu, Annika Rosengren, Martin Lindgren, Christina E. Lundberg, Erik Aerts, Martin Adiels, Helen Sjöland"
+  venue: "arXiv preprint"
+  volume: "abs/2511.16839"
+  doi: "10.48550/arXiv.2511.16839"
+  type: "preprint"
+  tags: ["ML/DL"]
+  domain: ["Healthcare & Medicine"]
+  group_authors: ["Falk Dippel", "Yinan Yu", "Erik Aerts"]
+
+# === 2024 ===
+# --- Journals ---
+- year: 2024
+  title: "Building efficient CNNs using Depthwise Convolutional Eigen-Filters (DeCEF)"
+  authors: "Yinan Yu, Samuel Scheidegger, Tomas McKelvey"
+  venue: "Neurocomputing"
+  volume: "609"
+  doi: "10.1016/j.neucom.2024.128461"
+  type: "journal"
+  tags: ["ML/DL", "Computer Vision"]
+  domain: []
+  group_authors: ["Yinan Yu"]
+
+- year: 2024
+  title: "climateBUG: A data-driven framework for analyzing bank reporting through a climate lens"
+  authors: "Yinan Yu, Samuel Scheidegger, Jasmine Elliott, Åsa Löfgren"
+  venue: "Expert Systems with Applications"
+  volume: "239"
+  doi: "10.1016/j.eswa.2023.122162"
+  type: "journal"
+  tags: ["NLP"]
+  domain: ["Sustainability"]
+  group_authors: ["Yinan Yu"]
+
+- year: 2024
+  title: "Domain generalization through meta-learning: a survey"
+  authors: "Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt"
+  venue: "Artificial Intelligence Review"
+  volume: "57"
+  doi: "10.1007/s10462-024-10922-z"
+  type: "journal"
+  tags: ["ML/DL"]
+  domain: []
+  group_authors: ["Arsham Gholamzadeh Khoee", "Yinan Yu", "Robert Feldt"]
+
+# --- Conferences ---
+- year: 2024
+  title: "GoNoGo: An Efficient LLM-Based Multi-agent System for Streamlining Automotive Software Release Decision-Making"
+  authors: "Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt, Andris Freimanis, Patrick Andersson Rhodin, Dhasarathy Parthasarathy"
+  venue: "36th IFIP International Conference on Testing Software and Systems (ICTSS 2024). Lecture Notes in Computer Science"
+  volume: "15383"
+  pages: "30-45"
+  doi: "10.1007/978-3-031-80889-0_3"
+  type: "conference"
+  tags: ["LLMs", "Software Engineering"]
+  domain: ["Automotive"]
+  group_authors: ["Arsham Gholamzadeh Khoee", "Yinan Yu", "Robert Feldt"]
+
+- year: 2024
+  title: "Scalability in Building Component Data Annotation: Enhancing Facade Material Classification with Synthetic Data"
+  authors: "Josie Harrison, Alexander Hollberg, Yinan Yu"
+  venue: "2024 European Conference on Computing in Construction (EC3 2024)"
+  pages: "120-127"
+  url: "https://arxiv.org/abs/2404.08557"
+  type: "conference"
+  tags: ["Computer Vision"]
+  domain: ["Building"]
+  group_authors: ["Josie Harrison", "Yinan Yu"]

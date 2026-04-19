@@ -1,32 +1,97 @@
 ---
 layout: page
 title: Publications
-subtitle: Our research
+subtitle: Research papers co-authored by AIXLab members
 ---
-## 2025
 
-- **Yu, Yinan**, Alex Gonzalez-Caceres, Samuel Scheidegger, Sanjay Somanath, and Alexander Hollberg. "Deep Learning-based Scalable Image-to-3D Facade Parser for Generating Thermal 3D Building Models." *Automation in Construction* (2025). [DOI](https://doi.org/10.1016/j.autcon.2025.106449)
+<div data-aix-filters="publications">
 
-- **Wang, Shuai**, Yinan Yu. "iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering." *The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)*, Vienna, Austria (2025). [arXiv:2506.01784](https://arxiv.org/abs/2506.01784)
+<div class="aix-filters">
+  <div class="aix-filter-row">
+    <span class="aix-filter-row__label">Type</span>
+    <button class="aix-chip is-active" data-filter="type" data-value="">All</button>
+    <button class="aix-chip" data-filter="type" data-value="journal">Journal</button>
+    <button class="aix-chip" data-filter="type" data-value="conference">Conference</button>
+    <button class="aix-chip" data-filter="type" data-value="preprint">Preprint</button>
+  </div>
 
-- **Khoee, Arsham Gholamzadeh**, Shuai Wang, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics."  (2025). [arXiv:2503.21735](https://arxiv.org/abs/2503.21735)
+  {% assign all_tags = site.data.publications | map: "tags" | join: "," | split: "," | uniq | sort %}
+  <div class="aix-filter-row">
+    <span class="aix-filter-row__label">Topic</span>
+    <button class="aix-chip is-active" data-filter="tag" data-value="">All</button>
+    {% for tag in all_tags %}
+      {% assign t = tag | strip %}
+      {% if t != "" %}<button class="aix-chip" data-filter="tag" data-value="{{ t | downcase }}">{{ t }}</button>{% endif %}
+    {% endfor %}
+  </div>
 
-- **Khoee, Arsham Gholamzadeh**, Yinan Yu, and Robert Feldt. "Domain-Invariant Prompt Learning for Vision-Language Models." *1st ICLR Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models* (2025). [https://openreview.net/pdf?id=SODTFGcNfp](https://openreview.net/pdf?id=SODTFGcNfp)
+  {% assign all_domains = site.data.publications | map: "domain" | join: "," | split: "," | uniq | sort %}
+  <div class="aix-filter-row">
+    <span class="aix-filter-row__label">Domain</span>
+    <button class="aix-chip is-active" data-filter="domain" data-value="">All</button>
+    {% for domain in all_domains %}
+      {% assign d = domain | strip %}
+      {% if d != "" %}<button class="aix-chip" data-filter="domain" data-value="{{ d | downcase }}">{{ d }}</button>{% endif %}
+    {% endfor %}
+  </div>
 
-- **Wang, Shuai**, Yinan Yu, Robert Feldt, and Dhasarathy Parthasarathy. "Automating a Complete Software Test Process Using LLMs: An Automotive Case Study." *IEEE/ACM 47th International Conference on Software Engineering (ICSE)*, Ottaw, Canada, April 27-May 3 (2025). [arXiv:2502.04008](https://arxiv.org/abs/2502.04008)
+  <div class="aix-filter-row">
+    <span class="aix-filter-row__label">Search</span>
+    <input type="search" class="aix-search" data-filter="search" placeholder="Search title, authors, venue…">
+  </div>
+</div>
 
-## 2024
+{% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
 
-- **Khoee, Arsham Gholamzadeh**, Yinan Yu, and Robert Feldt. "Domain generalization through meta-learning: a survey." *Artificial Intelligence Review* 57, 285 (2024). [DOI](https://doi.org/10.1007/s10462-024-10922-z)
+{% for year in years %}
+  {% assign year_pubs = site.data.publications | where: "year", year %}
+  <section class="aix-filter-section" id="year-{{ year }}">
+    <h2 class="aix-year">{{ year }}</h2>
+    {% for pub in year_pubs %}
+      {% assign tags_lc = pub.tags | join: "," | downcase %}
+      {% assign domains_lc = pub.domain | join: "," | downcase %}
+      {% capture search_blob %}{{ pub.title }} {{ pub.authors }} {{ pub.venue }}{% endcapture %}
+      <article class="aix-pub aix-filterable"
+               data-type="{{ pub.type }}"
+               data-tags="{{ tags_lc }}"
+               data-domain="{{ domains_lc }}"
+               data-search="{{ search_blob | downcase | strip }}">
+        <h3 class="aix-pub__title">
+          {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>
+          {% elsif pub.doi %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a>
+          {% else %}{{ pub.title }}{% endif %}
+        </h3>
+        <div class="aix-pub__authors">
+          {% assign author_list = pub.authors | split: ", " %}
+          {% for author in author_list %}
+            {% assign is_member = false %}
+            {% for gm in pub.group_authors %}{% if gm == author %}{% assign is_member = true %}{% endif %}{% endfor %}
+            {% if is_member %}<span class="aix-pub__member">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </div>
+        <div class="aix-pub__venue">
+          {{ pub.venue }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
+        </div>
+        <div class="aix-pub__meta">
+          {% case pub.type %}
+            {% when "journal" %}<span class="aix-pill aix-pill--brand">Journal</span>
+            {% when "conference" %}<span class="aix-pill">Conference</span>
+            {% when "preprint" %}<span class="aix-pill aix-pill--muted">Preprint</span>
+            {% when "book-chapter" %}<span class="aix-pill aix-pill--muted">Book chapter</span>
+          {% endcase %}
+          {% for tag in pub.tags %}<span class="aix-pill aix-pill--muted">{{ tag }}</span>{% endfor %}
+        </div>
+        {% if pub.doi or pub.url %}
+          <div class="aix-pub__links">
+            {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
+            {% if pub.url %}<a href="{{ pub.url }}">Read →</a>{% endif %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+{% endfor %}
 
-- **Khoee, Arsham Gholamzadeh**, Yinan Yu, Robert Feldt, Andris Freimanis, Patrick Andersson Rhodin, and Dhasarathy Parthasarathy. "GoNoGo: an efficient LLM-based multi-agent system for streamlining automotive software release decision-making." In *Proceedings of the 36th International Conference on Testing Software and Systems (ICTSS)*, London, United Kingdom, October 30–November 1 (2024). [arXiv:2408.09785](https://arxiv.org/abs/2408.09785)
+<div class="aix-empty" style="display:none">No publications match the current filters.</div>
 
-- **Harrison, Josie**, Alexander Hollberg, and Yinan Yu. "Scalability in building component data annotation: enhancing facade material classification with synthetic data." In *Proceedings of the 2024 European Conference on Computing in Construction*, Chania, Crete, Greece, July 14–17 (2024). [DOI](https://doi.org/10.35490/EC3.2024.197)
-
-- **Yu, Yinan**, Samuel Scheidegger, and Tomas McKelvey. "Building efficient CNNs using depthwise convolutional eigen-filters (DeCEF)." *Neurocomputing* 609, 128461 (2024). [DOI](https://doi.org/10.1016/j.neucom.2024.128461)
-
-- **Yu, Yinan**, Samuel Scheidegger, Jasmine Elliott, and Åsa Löfgren. "climateBUG: a data-driven framework for analyzing bank reporting through a climate lens." *Expert Systems with Applications* 239, 122162 (2024). [DOI](https://doi.org/10.1016/j.eswa.2023.122162)
-
-
-## 2023
-- **von Numers, Charlotte**, Yinan Yu, Aleksandra Petkova, Emmette Hutchison, and Jesper Havsol. "BAUFER: a baseline-enabled facial expression recognition pipeline trained with limited annotations." In *Artificial Intelligence for Personalized Medicine*, W3PHAI 2023. *Studies in Computational Intelligence*, vol. 1106, pp. 221–236. Springer, Cham (2023). [DOI](https://doi.org/10.1007/978-3-031-36938-4_17)
+</div>
