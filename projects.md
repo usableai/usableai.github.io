@@ -53,7 +53,7 @@ subtitle: Research projects at AIXLab
                 {% when "technical-host" %}<span class="aix-pill">Technical Host</span>
                 {% when "participant" %}<span class="aix-pill aix-pill--muted">Participant</span>
               {% endcase %}
-              {% if project.hiring %}<span class="aix-pill aix-pill--warn">Hiring</span>{% endif %}
+              {% if project.hiring %}{% if project.hiring_url %}<a class="aix-pill aix-pill--warn" href="{{ project.hiring_url }}">Hiring →</a>{% else %}<span class="aix-pill aix-pill--warn">Hiring</span>{% endif %}{% endif %}
             </div>
           </div>
         {% endfor %}
