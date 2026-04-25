@@ -32,21 +32,14 @@
   domain: "Healthcare & Medicine"
   description: "Building LLM-powered multimodal systems for human-centric decision-making in safety-critical domains such as healthcare."
 
-- title: "Advancing Heart Failure Management through AI-Driven Telemonitoring"
+- title: "AIcares: Advancing Heart Failure Management through AI-Driven Telemonitoring in Specialized Home Care Setting"
   years: "2024–2027"
-  funder: "VINNOVA"
-  status: "active"
-  role: "host"
-  domain: "Healthcare & Medicine"
-  description: "Using AI-driven telemonitoring to advance heart failure management and improve patient outcomes."
-
-- title: "AI-Driven Telemonitoring in Specialized Home Care Setting"
-  years: "2024–2027"
-  funder: "VINNOVA"
+  funder: "VINNOVA (AI for advanced digitalization 2024)"
   status: "active"
   role: "technical-host"
   domain: "Healthcare & Medicine"
-  description: "Applying AI-driven telemonitoring within specialized home care settings for heart failure patients."
+  description: "AI-driven telemonitoring for heart failure patients in specialized home care."
+  url: "https://www.vinnova.se/en/p/advancing-heart-failure-management-through-ai-driven-telemonitoring-in-specialized-home-care-setting/"
 
 # === Automotive ===
 - title: "AI-Driven System-Level Software Generation and Re-Engineering for Automotive Systems"

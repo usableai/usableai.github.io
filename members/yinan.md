@@ -15,6 +15,8 @@ By closely collaborating with industry partners, I aim to create research that i
 
 Additionally, I co-founded the startups <a href="https://asymptotic.ai/"> <img src="/assets/img/asymptotic.png" alt="Asymptotic AI" style="width:30px;vertical-align:middle;margin-right:5px;">Asymptotic AI</a> and <a href="https://lumilogic.se/"> <img src="/assets/img/ll-small.png" alt="Lumilogic" style="width:20px;vertical-align:middle;margin-right:5px;">Lumilogic</a>, which operate across various stages of the AI life cycle. These ventures allow us to validate and apply our research in real-world settings -- something I find incredibly rewarding 🚀. If you're curious about our mission, products, or services, don't hesitate to reach out!
 
+I was named [Supervisor of the Year](https://www.chalmers.se/en/current/news/she-is-the-supervisor-of-the-year/) at Chalmers in 2025. 🏆
+
 
 
 ### Links

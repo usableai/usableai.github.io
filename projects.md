@@ -42,6 +42,7 @@ subtitle: Research projects at AIXLab
               {% if project.funder and project.funder != "" %} · {{ project.funder }}{% endif %}
             </p>
             <p class="aix-project-card__desc">{{ project.description }}</p>
+            {% if project.url %}<p class="aix-project-card__link"><a href="{{ project.url }}">Project page →</a></p>{% endif %}
             <div class="aix-project-card__tags">
               {% if project.status == "active" %}
                 <span class="aix-pill aix-pill--brand">Active</span>
