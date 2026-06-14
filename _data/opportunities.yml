@@ -8,10 +8,18 @@
 #   contact:    optional email to contact
 #   tags:       role tag (e.g. ["PhD", "Master's thesis", "Postdoc", "Internship"])
 
+- title: "Postdoc in LLM Agents for Research Automation"
+  date: "2026"
+  subtitle: "Agentic AI for the full research & software-development lifecycle, evaluated with industrial partners (ref REF 2026-0290)"
+  status: open
+  url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p14890"
+  contact: "yinan@chalmers.se"
+  tags: ["Postdoc"]
+
 - title: "Postdoc position on NaviGateAI"
   date: "2026–2028"
   subtitle: "Digital twin decision support for emergency response"
-  status: open
+  status: past
   url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p14772"
   contact: "yinan@chalmers.se"
   tags: ["Postdoc"]

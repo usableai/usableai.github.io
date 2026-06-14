@@ -7,7 +7,7 @@
 #
 # 38 entries authored solely by Yinan (together with external collaborators)
 # were excluded by this rule. They remain on Yinan's personal page:
-#   https://yinanyu.github.io/
+#   https://yinan16.github.io/
 #
 # Fields: year, title, authors, venue, volume, pages, doi, url (optional),
 #         type (journal|conference|preprint|book-chapter),
@@ -25,6 +25,19 @@
   domain: ["Building", "Sustainability"]
   group_authors: ["Josie Harrison", "Yinan Yu"]
   url: "https://www.sciencedirect.com/science/article/pii/S0957417426012893"
+
+- year: 2026
+  title: "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics"
+  authors: "Arsham Gholamzadeh Khoee, Shuai Wang, Robert Feldt, Dhasarathy Parthasarathy, Yinan Yu"
+  venue: "Journal of Systems and Software"
+  volume: "240"
+  pages: "112961"
+  doi: "10.1016/j.jss.2026.112961"
+  url: "https://www.sciencedirect.com/science/article/pii/S0164121226001949"
+  type: "journal"
+  tags: ["LLMs", "Software Engineering"]
+  domain: ["Automotive"]
+  group_authors: ["Arsham Gholamzadeh Khoee", "Shuai Wang", "Robert Feldt", "Yinan Yu"]
 
 # --- Conferences ---
 - year: 2026
@@ -97,7 +110,7 @@
   title: "AI-based hospitalisation detection in telemonitoring data from heart failure patients"
   authors: "Erik Aerts, Yinan Yu, Annika Rosengren, Mengxi Fu, Martin Lindgren, Martin Adiels, Helen Sjöland"
   venue: "European Heart Journal"
-  volume: "46"
+  volume: "46(Supplement_1)"
   doi: "10.1093/eurheartj/ehaf784.4400"
   type: "conference"
   tags: ["ML/DL"]
@@ -141,17 +154,6 @@
 
 # --- Preprints ---
 - year: 2025
-  title: "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics"
-  authors: "Arsham Gholamzadeh Khoee, Shuai Wang, Robert Feldt, Dhasarathy Parthasarathy, Yinan Yu"
-  venue: "arXiv preprint"
-  volume: "abs/2503.21735"
-  doi: "10.48550/arXiv.2503.21735"
-  type: "preprint"
-  tags: ["LLMs", "Software Engineering"]
-  domain: ["Automotive"]
-  group_authors: ["Arsham Gholamzadeh Khoee", "Shuai Wang", "Robert Feldt", "Yinan Yu"]
-
-- year: 2025
   title: "Cost-Aware Prediction (CAP): An LLM-Enhanced Machine Learning Pipeline and Decision Support System for Heart Failure Mortality Prediction"
   authors: "Yinan Yu, Falk Dippel, Christina E. Lundberg, Martin Lindgren, Annika Rosengren, Martin Adiels, Helen Sjöland"
   venue: "arXiv preprint"
@@ -163,7 +165,7 @@
   group_authors: ["Yinan Yu", "Falk Dippel"]
 
 - year: 2025
-  title: "Analysis of heart failure patient trajectories using sequence modeling"
+  title: "Predicting one-year clinical instability and mortality in heart failure patients using sequence modeling"
   authors: "Falk Dippel, Yinan Yu, Annika Rosengren, Martin Lindgren, Christina E. Lundberg, Erik Aerts, Martin Adiels, Helen Sjöland"
   venue: "arXiv preprint"
   volume: "abs/2511.16839"

@@ -10,8 +10,6 @@
   funder: "VINNOVA"
   status: "active"
   role: "host"
-  hiring: true
-  hiring_url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p14772"
   domain: "Situation Awareness"
   description: "Building an interoperable digital twin decision support platform for emergency response and situational awareness."
 
@@ -39,7 +37,6 @@
   role: "technical-host"
   domain: "Healthcare & Medicine"
   description: "AI-driven telemonitoring for heart failure patients in specialized home care."
-  url: "https://www.vinnova.se/en/p/advancing-heart-failure-management-through-ai-driven-telemonitoring-in-specialized-home-care-setting/"
 
 # === Automotive ===
 - title: "AI-Driven System-Level Software Generation and Re-Engineering for Automotive Systems"
@@ -61,10 +58,19 @@
 - title: "AutoLang: LLM Adaptation for Automotive Software Engineering"
   years: "2024–2026"
   funder: "CHAIR"
-  status: "active"
+  status: "completed"
   role: "host"
   domain: "Automotive"
   description: "Adapting large language models for automotive software engineering tasks and workflows."
+
+- title: "Agentic AI for Automated Research"
+  years: "2026–2029"
+  funder: "VINNOVA"
+  status: "active"
+  role: "technical-host"
+  hiring: true
+  domain: "Automotive"
+  description: "Using agentic AI systems to automate the research process, with target applications in deep learning design for robotic perception systems and system-level code generation."
 
 # === Transport & Infrastructure ===
 - title: "Creating an Inclusivity Index for Digital Twin (IIDT) Transportation Systems"
@@ -81,12 +87,12 @@
   status: "active"
   role: "technical-host"
   domain: "Transport & Infrastructure"
-  description: "Demonstrating AI-powered systems for intelligent pavement maintenance and infrastructure management."
+  description: "Evaluating AI models for pavement maintenance without ground-truth labels."
 
 - title: "InfraHelper: Enhancing Digital Twins and Universal Design with Multimodal Data"
   years: "2025"
   funder: "City of Gothenburg"
-  status: "active"
+  status: "completed"
   role: "host"
   domain: "Transport & Infrastructure"
   description: "Human-centered road analysis for digital twin modeling and universal design, enriching infrastructure digital twins through multimodal data collection."

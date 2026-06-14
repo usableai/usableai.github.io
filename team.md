@@ -37,7 +37,7 @@ subtitle: "The people behind AIXLab ♥"
 <h2 class="aix-section-title" style="margin-top:3rem">Members <em style="font-weight:400; font-size:.55em; color:var(--text-muted); margin-left:.6rem; letter-spacing:.02em; vertical-align:middle">— alphabetic order</em></h2>
 
 {% assign order = "organizer,phd,postdoc,collaborator,alumni" | split: "," %}
-{% assign titles = "Organizers,PhD Students,Postdocs,Collaborators,Alumni" | split: "," %}
+{% assign titles = "Faculty,PhD Students,Postdocs,Collaborators,Alumni" | split: "," %}
 
 {% for group in order %}
 {% assign group_members = site.data.members | where: "group", group %}
