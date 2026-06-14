@@ -5,7 +5,7 @@ subtitle: Co-creating <em>usable</em> AI
 ---
 
 <section class="aix-hero">
-  <span class="aix-hero__eyebrow">Research lab · Chalmers University of Technology</span>
+  <span class="aix-hero__eyebrow">Research lab · Chalmers University of Technology · Since 2023</span>
   <h1 class="aix-hero__title">We build AI systems that are <em>usable</em> in the real world.</h1>
   <p class="aix-hero__lede">
     AIXLab is a research lab at the Department of Computer Science and Engineering,
@@ -14,37 +14,6 @@ subtitle: Co-creating <em>usable</em> AI
     across healthcare, automotive, transport, and sustainable construction.
   </p>
 </section>
-
-<div class="aix-section-label">What we mean by "usable"</div>
-<h2 class="aix-section-title">The LEAST framework</h2>
-
-<div class="aix-least">
-  <div class="aix-least__item">
-    <div class="aix-least__letter">L</div>
-    <div class="aix-least__word">Learnable</div>
-    <div class="aix-least__desc">New users can start working with the system and reach competence quickly.</div>
-  </div>
-  <div class="aix-least__item">
-    <div class="aix-least__letter">E</div>
-    <div class="aix-least__word">Explainable</div>
-    <div class="aix-least__desc">The system can clearly explain its reasoning whenever it produces an outcome.</div>
-  </div>
-  <div class="aix-least__item">
-    <div class="aix-least__letter">A</div>
-    <div class="aix-least__word">Accessible</div>
-    <div class="aix-least__desc">The system is usable for people with a wide range of abilities and disabilities.</div>
-  </div>
-  <div class="aix-least__item">
-    <div class="aix-least__letter">S</div>
-    <div class="aix-least__word">Scalable</div>
-    <div class="aix-least__desc">The system adapts to varying levels of demand without compromising user experience.</div>
-  </div>
-  <div class="aix-least__item">
-    <div class="aix-least__letter">T</div>
-    <div class="aix-least__word">Testable</div>
-    <div class="aix-least__desc">Components and behaviors can be clearly specified and effectively tested.</div>
-  </div>
-</div>
 
 <div class="aix-section-label">What we work on</div>
 <h2 class="aix-section-title">Research domains</h2>
@@ -74,3 +43,17 @@ subtitle: Co-creating <em>usable</em> AI
     </div>
   {% endfor %}
 </div>
+
+<div class="aix-section-label">Selected research</div>
+
+<section class="aix-figure">
+  <h2 class="aix-section-title">Agentic AI across the automotive software lifecycle</h2>
+  <p class="aix-figure__sub">LLM agents mapped to the phases they target, from code generation to Go/No-Go release decisions, closed by a re-engineering and optimization loop. Developed and evaluated with Volvo.</p>
+  {% include fig-automotive-lifecycle.svg %}
+</section>
+
+<section class="aix-figure">
+  <h2 class="aix-section-title">Multimodal knowledge-intensive systems</h2>
+  <p class="aix-figure__sub">Vision, language, sensor, and geospatial inputs flow through perception and knowledge-grounded reasoning to safety-critical decisions.</p>
+  {% include fig-knowledge-system.svg %}
+</section>

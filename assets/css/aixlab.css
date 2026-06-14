@@ -494,3 +494,12 @@ footer a { color: var(--brand); }
   .aix-member-card img { height: 180px; }
   .aix-grid { grid-template-columns: 1fr; }
 }
+
+/* --- Research overview figures --- */
+.aix-figure { margin: 1.6rem 0 2.6rem; }
+.aix-figure svg { width: 100%; height: auto; display: block; }
+.aix-figure__sub { color: var(--text-muted); margin: .15rem 0 .6rem; }
+.aix-figure__lead { color: var(--text-muted); }
+.aix-figure__key { font-weight: 600; border-radius: 4px; padding: 0 .3em; }
+.aix-figure__key--paper { color: var(--accent-dark); background: var(--accent-soft); }
+.aix-figure__key--proj  { color: #4B3FA0; background: #E9E6FB; }

@@ -1,2 +1,26 @@
-**/_site/*
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
 **/bin/*
+
+# Ruby / Bundler
+.bundle/
+vendor/
+*.gem
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Editor / OS / NAS cruft
+.DS_Store
+Thumbs.db
+@eaDir/
+*.swp
+*~
+.idea/
+.vscode/
