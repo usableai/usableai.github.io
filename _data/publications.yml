@@ -14,6 +14,16 @@
 #         tags[], domain[], group_authors[] (AIXLab members among authors).
 
 # === 2026 ===
+- year: 2026
+  title: "From Hallucination to Grounding: Diagnosing Visual Spatial Intelligence via CRISP"
+  authors: "Zhixing Li, Yinan Yu"
+  venue: "The 19th European Conference on Computer Vision (ECCV 2026)"
+  url: "https://arxiv.org/abs/2606.26535"
+  type: "conference"
+  tags: ["VLM", "Multimodal Learning", "Computer Vision"]
+  domain: []
+  group_authors: ["Zhixing Li", "Yinan Yu"]
+
 # --- Journals ---
 - year: 2026
   title: "Recognizing as-built building materials: a systematic mapping study"
@@ -35,7 +45,7 @@
   doi: "10.1016/j.jss.2026.112961"
   url: "https://www.sciencedirect.com/science/article/pii/S0164121226001949"
   type: "journal"
-  tags: ["LLMs", "Software Engineering"]
+  tags: ["LLM", "Software Engineering"]
   domain: ["Automotive"]
   group_authors: ["Arsham Gholamzadeh Khoee", "Shuai Wang", "Robert Feldt", "Yinan Yu"]
 
@@ -46,7 +56,7 @@
   venue: "The 51st IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026)"
   url: "https://arxiv.org/abs/2511.00067"
   type: "conference"
-  tags: ["Multimodal Learning", "Computer Vision"]
+  tags: ["VLM", "Multimodal Learning", "Computer Vision"]
   domain: ["Situation Awareness"]
   group_authors: ["Zhixing Li", "Arsham Gholamzadeh Khoee", "Yinan Yu"]
 
@@ -56,7 +66,7 @@
   venue: "International Joint Conference on Neural Networks (IJCNN 2026)"
   url: "https://arxiv.org/abs/2603.21440"
   type: "conference"
-  tags: ["LLMs", "NLP", "Knowledge Graphs"]
+  tags: ["LLM", "NLP", "Knowledge Graphs"]
   domain: []
   group_authors: ["Shuai Wang", "Yinan Yu"]
 
@@ -66,7 +76,7 @@
   venue: "The 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)"
   url: "https://arxiv.org/abs/2603.21430"
   type: "conference"
-  tags: ["LLMs", "Software Engineering", "Knowledge Graphs"]
+  tags: ["LLM", "Software Engineering", "Knowledge Graphs"]
   domain: []
   group_authors: ["Shuai Wang", "Robert Feldt", "Yinan Yu"]
 
@@ -76,7 +86,7 @@
   venue: "The 34th ACM International Conference on the Foundations of Software Engineering (FSE 2026)"
   url: "https://arxiv.org/abs/2603.21439"
   type: "conference"
-  tags: ["LLMs", "Software Engineering"]
+  tags: ["LLM", "Software Engineering"]
   domain: ["Automotive"]
   group_authors: ["Shuai Wang", "Yinan Yu"]
 
@@ -88,7 +98,7 @@
   volume: "abs/2604.12503"
   doi: "10.48550/arXiv.2604.12503"
   type: "preprint"
-  tags: ["NLP", "LLMs", "Knowledge Graphs"]
+  tags: ["NLP", "LLM", "Knowledge Graphs"]
   domain: []
   group_authors: ["Shuai Wang", "Yinan Yu"]
 
@@ -99,7 +109,7 @@
   volume: "abs/2604.12487"
   doi: "10.48550/arXiv.2604.12487"
   type: "preprint"
-  tags: ["NLP", "LLMs", "Knowledge Graphs"]
+  tags: ["NLP", "LLM", "Knowledge Graphs"]
   domain: []
   group_authors: ["Shuai Wang", "Yinan Yu"]
 
@@ -124,7 +134,7 @@
   pages: "373-384"
   doi: "10.1109/ICSE55347.2025.00211"
   type: "conference"
-  tags: ["LLMs", "Software Engineering"]
+  tags: ["LLM", "Software Engineering"]
   domain: ["Automotive"]
   group_authors: ["Shuai Wang", "Yinan Yu", "Robert Feldt"]
 
@@ -137,7 +147,7 @@
   doi: "10.18653/v1/2025.acl-long.760"
   url: "https://aclanthology.org/2025.acl-long.760/"
   type: "conference"
-  tags: ["NLP", "LLMs", "Knowledge Graphs"]
+  tags: ["NLP", "LLM", "Knowledge Graphs"]
   domain: []
   group_authors: ["Shuai Wang", "Yinan Yu"]
 
@@ -148,7 +158,7 @@
   url: "https://openreview.net/forum?id=SODTFGcNfp"
   doi: "10.48550/arXiv.2603.28555"
   type: "conference"
-  tags: ["Multimodal Learning", "Computer Vision"]
+  tags: ["VLM", "Multimodal Learning", "Computer Vision"]
   domain: []
   group_authors: ["Arsham Gholamzadeh Khoee", "Yinan Yu", "Robert Feldt"]
 
@@ -160,7 +170,7 @@
   volume: "abs/2511.15357"
   doi: "10.48550/arXiv.2511.15357"
   type: "preprint"
-  tags: ["ML/DL", "LLMs"]
+  tags: ["ML/DL", "LLM"]
   domain: ["Healthcare & Medicine"]
   group_authors: ["Yinan Yu", "Falk Dippel"]
 
@@ -219,7 +229,7 @@
   pages: "30-45"
   doi: "10.1007/978-3-031-80889-0_3"
   type: "conference"
-  tags: ["LLMs", "Software Engineering"]
+  tags: ["LLM", "Software Engineering"]
   domain: ["Automotive"]
   group_authors: ["Arsham Gholamzadeh Khoee", "Yinan Yu", "Robert Feldt"]
 
