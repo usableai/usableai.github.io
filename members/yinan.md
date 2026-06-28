@@ -7,7 +7,7 @@ permalink: /members/yinan
 
 ### About me
 
-I am an Assistant Professor in the Department of Computer Science and Engineering at Chalmers University of Technology, Sweden, and a Technical Fellow (Research Leader) at the Center for Digital Health (CDH), Sahlgrenska University Hospital. My research focuses on developing technical solutions to make AI more *usable* and help create a more accessible and sustainable world. 🌍✨
+I am an Assistant Professor in the Department of Computer Science and Engineering at Chalmers University of Technology, Sweden. My research focuses on developing technical solutions to make AI more *usable* and help create a more accessible and sustainable world. 🌍✨ I am also a Technical Fellow (Research Leader) at the Center for Digital Health (CDH), Sahlgrenska University Hospital, VGR, where I help provide personalized digital solutions to the healthcare ecosystem.
 
 I work extensively with diverse data modalities, including texts, images, and time series. I enjoy organizing and managing data lakes to make data more accessible and searchable for their end-users. I love designing and implementing deep learning techniques for multimodal learning to unlock the full potential of data! 📊🤩
  
@@ -22,7 +22,7 @@ I was named [Supervisor of the Year](https://www.chalmers.se/en/current/news/she
 ### Links
 
 + [Personal webpage](https://yinan16.github.io/)
-+ [Google Scholar](https://scholar.google.com/citations?user=z3p7ALcAAAAJ&hl=en)
++ [Google Scholar](https://scholar.google.com/citations?hl=en&user=z3p7ALcAAAAJ&view_op=list_works&sortby=pubdate)
 + [LinkedIn](https://www.linkedin.com/in/yinanyu/)
 + [Homepage at Chalmers](https://www.chalmers.se/en/persons/yinan/)
 

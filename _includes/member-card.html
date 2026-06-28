@@ -1,0 +1,16 @@
+<div class="aix-member-card">
+<img src="{{ include.member.image }}" alt="Photo of {{ include.member.name }}">
+<div class="aix-member-card__name">
+{% if include.member.bio_link %}<a href="{{ include.member.bio_link }}">{{ include.member.name }}</a>
+{% elsif include.member.external_link %}<a href="{{ include.member.external_link }}">{{ include.member.name }}</a>
+{% else %}{{ include.member.name }}{% endif %}
+</div>
+<div class="aix-member-card__role">{{ include.member.role }}</div>
+{% if include.member.affiliation %}
+<div class="aix-member-card__role" style="font-size:.85rem">
+{% if include.member.affiliation_link %}<a href="{{ include.member.affiliation_link }}">{{ include.member.affiliation }}</a>
+{% else %}{{ include.member.affiliation }}{% endif %}
+</div>
+{% endif %}
+{% if include.member.tags %}{% for tag in include.member.tags %}<span class="aix-member-card__tag">{{ tag }}</span>{% endfor %}{% endif %}
+</div>

@@ -36,35 +36,21 @@ subtitle: "The people behind AIXLab ♥"
 
 <h2 class="aix-section-title" style="margin-top:3rem">Members <em style="font-weight:400; font-size:.55em; color:var(--text-muted); margin-left:.6rem; letter-spacing:.02em; vertical-align:middle">— alphabetic order</em></h2>
 
-{% assign order = "organizer,phd,postdoc,collaborator,alumni" | split: "," %}
-{% assign titles = "Faculty,PhD Students,Postdocs,Collaborators,Alumni" | split: "," %}
+{% assign active = site.data.members | where: "group", "active" | sort: "name" %}
+{% assign alumni = site.data.members | where: "group", "alumni" | sort: "name" %}
 
-{% for group in order %}
-{% assign group_members = site.data.members | where: "group", group %}
-{% if group_members and group_members.size > 0 %}
-{% assign idx = forloop.index0 %}
-<section class="aix-team-group{% if group == 'alumni' %} aix-team-group--alumni{% endif %}">
-<h2 class="aix-team-group__heading">{{ titles[idx] }}</h2>
+<section class="aix-team-group">
+<h2 class="aix-team-group__heading">Active Members</h2>
 <div class="aix-team-grid">
-{% for member in group_members %}
-<div class="aix-member-card">
-<img src="{{ member.image }}" alt="Photo of {{ member.name }}">
-<div class="aix-member-card__name">
-{% if member.bio_link %}<a href="{{ member.bio_link }}">{{ member.name }}</a>
-{% elsif member.external_link %}<a href="{{ member.external_link }}">{{ member.name }}</a>
-{% else %}{{ member.name }}{% endif %}
+{% for member in active %}{% include member-card.html member=member %}{% endfor %}
 </div>
-<div class="aix-member-card__role">{{ member.role }}</div>
-{% if member.affiliation %}
-<div class="aix-member-card__role" style="font-size:.85rem">
-{% if member.affiliation_link %}<a href="{{ member.affiliation_link }}">{{ member.affiliation }}</a>
-{% else %}{{ member.affiliation }}{% endif %}
-</div>
-{% endif %}
-{% if member.tags %}{% for tag in member.tags %}<span class="aix-member-card__tag">{{ tag }}</span>{% endfor %}{% endif %}
-</div>
-{% endfor %}
+</section>
+
+{% if alumni and alumni.size > 0 %}
+<section class="aix-team-group aix-team-group--alumni">
+<h2 class="aix-team-group__heading">Alumni</h2>
+<div class="aix-team-grid">
+{% for member in alumni %}{% include member-card.html member=member %}{% endfor %}
 </div>
 </section>
 {% endif %}
-{% endfor %}
