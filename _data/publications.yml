@@ -115,6 +115,17 @@
 
 # === 2025 ===
 # --- Journals ---
+- year: 2025
+  title: "Deep learning-based Scalable Image-to-3D Facade Parser for generating thermal 3D building models"
+  authors: "Yinan Yu, Alex Gonzalez-Caceres, Samuel Scheidegger, Sanjay Somanath, Alexander Hollberg"
+  venue: "Automation in Construction"
+  volume: "179"
+  doi: "10.1016/j.autcon.2025.106449"
+  type: "journal"
+  tags: ["Computer Vision", "ML/DL"]
+  domain: ["Building"]
+  group_authors: ["Yinan Yu"]
+
 # --- Conferences ---
 - year: 2025
   title: "AI-based hospitalisation detection in telemonitoring data from heart failure patients"
@@ -161,6 +172,17 @@
   tags: ["VLM", "Multimodal Learning", "Computer Vision"]
   domain: []
   group_authors: ["Arsham Gholamzadeh Khoee", "Yinan Yu", "Robert Feldt"]
+
+- year: 2025
+  title: "Polymer: Development Workflows as Software"
+  authors: "Dhasarathy Parthasarathy, Yinan Yu, Earl T. Barr"
+  venue: "Companion Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering (FSE 2025)"
+  pages: "535-539"
+  doi: "10.1145/3696630.3728494"
+  type: "conference"
+  tags: ["Software Engineering"]
+  domain: ["Automotive"]
+  group_authors: ["Yinan Yu"]
 
 # --- Preprints ---
 - year: 2025
