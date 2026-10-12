@@ -8,10 +8,42 @@
 #   contact:    optional email to contact
 #   tags:       role tag (e.g. ["PhD", "Master's thesis", "Postdoc", "Internship"])
 
+- title: "Master's Thesis: AI-Powered Situational Awareness and Decision Support System for Emergency Response"
+  date: "Spring 2027, apply by 30 Nov 2026"
+  subtitle: "Three theses with fire and rescue services: world modeling and data integration, LLM-based reasoning and decision support, interactive visualization and human-AI interaction"
+  status: open
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/4818"
+  contact: "bakidou@chalmers.se"
+  tags: ["Master's thesis"]
+
+- title: "Master's Thesis: Understanding Multi-Step Spatial Reasoning in Vision-Language Models"
+  date: "Apply by 30 Nov 2026"
+  subtitle: "Diagnostic tools for intermediate spatial states in multi-step reasoning chains"
+  status: open
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/4659"
+  contact: "zhixingl@chalmers.se"
+  tags: ["Master's thesis"]
+
+- title: "Master's Thesis: Selective Adaptation of Vision-Language Models for Spatial Reasoning"
+  date: "Apply by 30 Nov 2026"
+  subtitle: "Fine-tuning for spatial reasoning while preserving general multimodal capabilities"
+  status: open
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/4675"
+  contact: "zhixingl@chalmers.se"
+  tags: ["Master's thesis"]
+
+- title: "Master's Thesis: Combining ECG Signals and Clinical Text for LLM-Based Clinical Reasoning"
+  date: "Apply by 31 Oct 2026"
+  subtitle: "ECG, tabular patient data, and clinical notes, with clinicians at Sahlgrenska University Hospital"
+  status: open
+  url: "https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/4660"
+  contact: "aeerik@chalmers.se"
+  tags: ["Master's thesis"]
+
 - title: "Postdoc in LLM Agents for Research Automation"
   date: "2026"
   subtitle: "Agentic AI for the full research & software-development lifecycle, evaluated with industrial partners (ref REF 2026-0290)"
-  status: open
+  status: past
   url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p14890"
   contact: "yinan@chalmers.se"
   tags: ["Postdoc"]
@@ -27,7 +59,7 @@
 - title: "Internship at Volvo: Neural Compression for Automotive Data"
   date: "2026"
   subtitle: "Strong Python required; PyTorch and deep learning experience preferred"
-  status: open
+  status: past
   url: /opportunities/volvo-neural-compression
   contact: "dhasarathy.parthasarathy@volvo.com"
   tags: ["Internship"]
